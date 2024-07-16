@@ -110,8 +110,8 @@ img {
         font-size: 3.2rem;
     }
     .overlay .close {
-        top: 0px;
-        right: -120px;
+        top: -20px;
+        right: -150px;
         font-size: 200px;
         cursor: pointer;
         color: white;
