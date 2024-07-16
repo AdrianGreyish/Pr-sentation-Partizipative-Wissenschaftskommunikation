@@ -129,5 +129,9 @@ img {
         margin-top: 2em;
         display: flex;
         justify-content: space-around;
+        flex-direction: column;
+    }
+    .intro {
+        max-width: 100%;
     }
 }
