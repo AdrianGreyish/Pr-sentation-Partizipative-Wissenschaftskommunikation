@@ -79,7 +79,7 @@ arrow_outward
              @import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans:wght@400;700&family=IBM+Plex+Sans&family=Martian+Mono&display=swap');
           
           
-             @media screen and (max-width: 2200px) {
+             @media screen and (min-width: 2200px) {
 
 
             body {
@@ -146,6 +146,68 @@ arrow_outward
             }
 
         }
+
+        body {
+             background-color: #101131;
+             color: #F7F7F7;
+             font-size: 1rem;
+             hyphens: auto;
+            }
+          
+             h1 {
+              font-family: 'DM Sans', sans-serif;
+              margin: 0.5em 0;
+             }
+
+             .intro {
+                max-width: 1200px;
+             }
+          
+          
+            .wrapper {
+              font-family: 'DM Sans', sans-serif;
+              line-height: 1.5;
+              padding: 1.5em 5em 5em 5em ;
+            }
+          
+            .grid {
+              margin-top: 2em;
+              display: grid;
+              grid-template-columns: repeat(2, 1fr);
+              grid-template-rows: repeat(2, 1fr);
+              gap: 2rem;
+            }
+          
+            .project {
+              margin-bottom: 1em;
+              transition: all 0.5s;
+            }
+          
+            .project:hover {
+              transform: translateY(-5px);
+            }
+            
+            .title {
+              font-weight: bold;
+              font-size: 18pt;
+              padding-top: 2em; 
+              padding-bottom: 1em; 
+            }
+          
+            a{
+              text-decoration: none;
+              color: #F7F7F7;
+            }
+          
+            .authors {
+              font-style: italic;
+              margin-top: 0.5em;;
+            }
+          
+            img {
+              width: 550px;
+              height: auto;
+            }
 
             @media screen and (max-width: 840px) {
                 .wrapper {
