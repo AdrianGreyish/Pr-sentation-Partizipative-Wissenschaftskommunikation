@@ -61,7 +61,7 @@ img {
 }
 .overlay-content {
     position: relative;
-    width: 70%;
+    width:80%;
     height: 90%;
 }
 .overlay iframe {
@@ -111,7 +111,7 @@ img {
     }
     .overlay .close {
         top: -20px;
-        right: -40px;
+        right: -80px;
         font-size: 200px;
         cursor: pointer;
         color: white;
